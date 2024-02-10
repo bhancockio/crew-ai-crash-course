@@ -36,8 +36,8 @@ class TripCrew:
             city_selection_expert,
             self.origin,
             self.cities,
-            self.date_range,
-            self.interests
+            self.interests,
+            self.date_range
         )
 
         gather_city_info = tasks.gather_city_info(
